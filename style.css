@@ -53,7 +53,7 @@ text-align: center;
 {
   font-size: 1em;
   color: #fff;
-  background: #ff94b8;
+  background: #decec5;
   display: inline-block;
   padding: 10px 30px;
   margin-top: 20px;
@@ -67,3 +67,66 @@ text-align: center;
 {
   letter-spacing:6px;
 }
+
+
+/* # header */
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 40px 100px;
+z-index: 10000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.5s;
+}
+
+header .logo
+{
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+header .logo span
+{
+  color: #ff0157;
+}
+
+header .navigation
+{
+  position: relative;
+  display: flex;
+}
+
+header .navigation li
+{
+  list-style: none;
+  margin-left: 30px;
+}
+
+header .navigation li a
+{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  /* font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+
+header.sticky .navigation li a
+{
+  color: rgb(255, 255, 255);
+}
+
+header .navigation li a:hover
+{
+  color: #ffffff;
+}
+
+
