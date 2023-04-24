@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Josefin+Sans&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+p
+{
+  font-weight: 300;
+  color: #111;
+}
+
+body
+{
+  min-height: 1000px;
+}
+
+.home
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(images/animebg.png);
+  background-size: cover;
+}
+
+.banner .content 
+{
+max-width: 900px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+}
+
+.banner .content h2
+{
+  font-size: 5em;
+  color: #fff;
+}
+.banner .content p
+{
+  font-size: 1em;
+  color: #fff;
+}
+
