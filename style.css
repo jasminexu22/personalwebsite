@@ -31,19 +31,21 @@ body
   background-size: cover;
 }
 
-.banner .content 
+
+/* # the text for main page */
+.home .content 
 {
-max-width: 900px;
+max-width: 500px;
 font-family: 'Poppins', sans-serif;
 text-align: center;
 }
 
-.banner .content h2
+.home .content h2
 {
   font-size: 5em;
-  color: #fff;
+  color: rgb(238, 228, 208);
 }
-.banner .content p
+.home .content p
 {
   font-size: 1em;
   color: #fff;
@@ -131,3 +133,186 @@ header .navigation li a:hover
 }
 
 
+.main {
+  background-color: #decec5;
+  padding: 10rem 0;
+}
+
+/* poker code  */
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Josefin+Sans&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+p
+{
+  font-weight: 300;
+  color: #111;
+}
+
+body
+{
+  min-height: 1000px;
+}
+
+.banner
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(images/bg2.png);
+  background-size: cover;
+}
+
+
+.banner .content 
+{
+max-width: 900px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+}
+
+.banner .content h2
+{
+  font-size: 5em;
+  color: #fff;
+}
+.banner .content p
+{
+  font-size: 1em;
+  color: #fff;
+}
+
+.btn
+{
+  font-size: 1em;
+  color: #fff;
+  background: #ff94b8;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.btn:hover
+{
+  letter-spacing:6px;
+}
+
+header
+{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 40px 100px;
+z-index: 10000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+transition: 0.5s;
+}
+
+header .logo
+{
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+header .logo span
+{
+  color: #ff0157;
+}
+
+header .navigation
+{
+  position: relative;
+  display: flex;
+}
+
+header .navigation li
+{
+  list-style: none;
+  margin-left: 30px;
+}
+
+header .navigation li a
+{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+header.sticky .navigation li a
+{
+  color: rgb(255, 255, 255);
+}
+
+header .navigation li a:hover
+{
+  color: #ffffff;
+}
+
+section 
+{
+  padding: 100px;
+  background-color: #95C5FF;
+}
+
+.row
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(images/poker.png);
+  background-size: cover;
+  
+}
+
+
+#pokerhands
+{
+  font-size: 60px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.poker {
+  width: 500px;
+  margin-top: 20px
+}
+
+.ruletitle {
+  font-size: 60px;
+
+}
+
+ */
